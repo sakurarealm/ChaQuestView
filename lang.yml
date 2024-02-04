@@ -1,0 +1,7 @@
+quest-already-start: "§c你已经接受了这个任务了！"
+quest-not-start: "§c你还没有接受这个任务！"
+quest-started: "§c任务已开始！"
+quest-finished: "§c任务已完成！"
+quest-canceled: "§c任务已放弃！"
+quest-pinned: "§c任务已显示！"
+quest-unpinned: "§c任务已取消显示！"
