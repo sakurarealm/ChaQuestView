@@ -1,0 +1,45 @@
+# 任务ID（文件名与任务ID同）
+id: "序章3-击败BOSS"
+# 任务名称
+display: "击败BOSS"
+# 任务等级
+# level: 10
+# 任务分组 分组名称:排序权重
+group: "主线任务:0"
+# 默认状态下显示配置
+normal:
+  # 任务图标空着，下同
+  icon: ""
+  # 任务图片空着，下同
+  image: ""
+  # 任务地点（序章填初始台地，第一章填芸樱乡）
+  location: "初始台地"
+  # 任务信息
+  info:
+    - "你初来此地，不知道发生了什么，找个人问问吧"
+  # 任务目标
+  goal:
+    - "击败BOSS"
+    - "坐标 [X,Y,Z]"
+# 任务完成显示配置（可删去任意节点，则不显示）
+complete:
+  icon: ""
+  image: ""
+  location: "初始台地"
+  info:
+    - "你初来此地，不知道发生了什么，找个人问问吧"
+  goal:
+    - "[序章-击败BOSS] 已完成"
+# 发布任务的NPC
+publisher: "濒死的侦察兵"
+# 任务导航
+navigation:
+  enable: true
+  cmd:
+    - ""
+# 任务放弃
+cancel:
+  enable: true
+  cmd:
+    - ""
+
