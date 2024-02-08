@@ -12,7 +12,7 @@ Github网页/客户端上传时"Commit message"填写"Updated on YYYY.MM.DD"
 0. = 序章
 1. = 指引壹
 
-地区任务
+支线任务
 
 0. = 红枫镇
 1. = 芸樱乡
