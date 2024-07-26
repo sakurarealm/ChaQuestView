@@ -21,6 +21,9 @@ normal:
   goal:
     - "救助浑身是血的少女"
     - "坐标 [407,70,-1578]"
+  hud:
+    - "救助浑身是血的少女"
+    - "坐标 [407,70,-1578]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,9 +39,11 @@ publisher: "? ? ? "
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 前往协会门口 TravelersDreamCompact 2-1_6 407 70 -1578"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章3-救助浑身是血的少女"
+    - "chemdah quest stop <player> 主线第一章3-救助浑身是血的少女2"
+    - "chemdah quest stop <player> 主线第一章3-救助浑身是血的少女3"

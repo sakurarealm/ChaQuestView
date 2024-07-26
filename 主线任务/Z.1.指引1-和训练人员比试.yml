@@ -1,5 +1,5 @@
 # 任务ID（文件名与任务ID同）
-id: "指引1-和训练人员比试"
+id: "指引1-和训练人员比试-1"
 # 任务名称
 display: "和训练人员比试"
 # 任务等级
@@ -22,6 +22,10 @@ normal:
     - "击败训练人员"
     - "或被训练人员击败"
     - "坐标 [-1922,65,-478]"
+  hud:
+    - "击败训练人员"
+    - "或被训练人员击败"
+    - "坐标 [-1922,65,-478]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -37,9 +41,10 @@ publisher: "卡尔"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 和训练人员比试 TravelersDreamCompact 2-1_6 -1922 65 -478"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 指引1-和训练人员比试-1"
+    - "chemdah quest stop <player> 指引1-和训练人员比试-2"

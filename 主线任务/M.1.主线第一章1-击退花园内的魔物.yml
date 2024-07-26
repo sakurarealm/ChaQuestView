@@ -21,6 +21,9 @@ normal:
   goal:
     - "击退芸樱乡附近的魔物"
     - "坐标 [457,70,-1499]"
+  hud:
+    - "击退芸樱乡附近的魔物"
+    - "坐标 [457,70,-1499]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,9 +39,10 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 击退魔物 TravelersDreamCompact 2-1_6 xyz"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章1-击退芸樱乡附近的魔物"
+    - "chemdah quest stop <player> 主线第一章1-击退芸樱乡附近的魔物2"

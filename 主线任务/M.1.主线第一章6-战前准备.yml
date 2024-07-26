@@ -21,6 +21,9 @@ normal:
   goal:
     - "战前准备"
     - "坐标 [452,70,-1547]"
+  hud:
+    - "战前准备"
+    - "坐标 [452,70,-1547]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,9 +39,11 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 战前准备 TravelersDreamCompact 2-1_6 553 76 -1709"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章6-战前准备"
+    - "chemdah quest stop <player> 主线第一章6-战前准备2"
+    - "chemdah quest stop <player> 主线第一章6-战前准备3"

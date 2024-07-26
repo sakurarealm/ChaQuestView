@@ -21,6 +21,9 @@ normal:
   goal:
     - "调查死灵拘束之地"
     - "坐标 463,69,-1460]"
+  hud:
+    - "调查死灵拘束之地"
+    - "坐标 463,69,-1460]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -29,16 +32,17 @@ complete:
   info:
     - "冒险者，我想继续委托你调查死灵拘束之地发生异变的原因"
   goal:
-    - "[主线-调查死灵拘束之地] 已完成"
+    - "[主线-调查死灵拘束之地] 已完成"  
 # 发布任务的NPC
 publisher: "武隆"
 # 任务导航
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 调查死灵拘束之地 TravelersDreamCompact 2-1_6 594 65 -1579"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章5-调查死灵拘束之地"
+    - "chemdah quest stop <player> 主线第一章5-调查死灵拘束之地2"

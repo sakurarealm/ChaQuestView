@@ -21,6 +21,9 @@ normal:
   goal:
     - "尾声"
     - "坐标 [307,74,-1533]"
+  hud:
+    - "尾声"
+    - "坐标 [307,74,-1533]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,9 +39,9 @@ publisher: "爱斯·特丽德"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 与爱斯特·丽德对话 TravelersDreamCompact 2-1_6 308 74 -1531"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章13-尾声"

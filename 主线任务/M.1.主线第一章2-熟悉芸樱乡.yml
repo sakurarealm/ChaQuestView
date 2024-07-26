@@ -16,9 +16,15 @@ normal:
   location: "芸樱乡"
   # 任务信息
   info:
-    - "哈哈哈！说起来冒险者，你是刚刚来到芸樱乡的吧？"
+    - "熟悉芸樱乡"
   # 任务目标
   goal:
+    - "与NPC对话"
+    - "沐沐坐标 491,70,-1554]"
+    - "乌维·卡托斯坐标 [349,70,-1582]"
+    - "托尔坐标 [437,70,-1556]"
+    - "伟瑟坐标 [423,70,-1600]"
+  hud:
     - "与NPC对话"
     - "沐沐坐标 491,70,-1554]"
     - "乌维·卡托斯坐标 [349,70,-1582]"
@@ -39,9 +45,12 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 与沐沐对话 TravelersDreamCompact 2-1_6 491 70 -1552"
+    - "map guide <player> 与乌维·卡托斯对话 TravelersDreamCompact 2-1_6 349 70 -1582"
+    - "map guide <player> 与托尔对话 TravelersDreamCompact 2-1_6 347 71 -1555"
+    - "map guide <player> 与伟瑟对话 TravelersDreamCompact 2-1_6 423 70 -1600"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章2-熟悉芸樱乡"

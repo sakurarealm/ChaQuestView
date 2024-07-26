@@ -21,6 +21,9 @@ normal:
   goal:
     - "面见工会会长"
     - "坐标 [430,81,-1561]"
+  hud:
+    - "面见工会会长"
+    - "坐标 [430,81,-1561]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,9 +39,9 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 与冒险者工会会长对话 TravelersDreamCompact 2-1_6 430 81 -1563"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章8-面见工会会长"

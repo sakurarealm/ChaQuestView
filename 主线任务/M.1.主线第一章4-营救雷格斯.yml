@@ -16,11 +16,14 @@ normal:
   location: "芸樱乡"
   # 任务信息
   info:
-    - "什么？！必须立刻派遣其他冒险者展开救援！冒险者你愿意参与救援行动吗？"
+    - "必须立刻展开救援"
   # 任务目标
   goal:
     - "营救雷格斯"
-    - "坐标 [X,Y,Z]"
+    - "坐标 [-410,70,-1148]"
+  hud:
+    - "营救雷格斯"
+    - "坐标 [-410,70,-1148]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,9 +39,12 @@ publisher: "? ? ? "
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 与卫兵对话 TravelersDreamCompact 2-1_6 -410 70 -1148"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章4-营救雷格斯"
+    - "chemdah quest stop <player> 主线第一章4-营救雷格斯2"
+    - "chemdah quest stop <player> 主线第一章4-营救雷格斯3"
+    - "chemdah quest stop <player> 主线第一章4-营救雷格斯4"

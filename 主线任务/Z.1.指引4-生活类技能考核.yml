@@ -21,6 +21,9 @@ normal:
   goal:
     - "通过生活类技能考核"
     - "坐标 [-1911,66,-480]"
+  hud:
+    - "通过生活类技能考核"
+    - "坐标 [-1911,66,-480]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,10 +39,10 @@ publisher: "卜绘咕"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 生活类技能考核 TravelersDreamCompact 2-1_6 -1911 66 -480"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 指引4-生活类技能考核"
 

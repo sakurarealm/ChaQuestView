@@ -21,6 +21,9 @@ normal:
   goal:
     - "讨伐死灵拘束之地最终BOSS"
     - "坐标 [X,Y,Z]"
+  hud:
+    - "讨伐死灵拘束之地最终BOSS"
+    - "坐标 [X,Y,Z]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,9 +39,10 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "chaquestview start 主线第一章7-讨伐死灵拘束之地最终BOSS <player>"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章7-讨伐死灵拘束之地最终BOSS"
+    - "chemdah quest stop <player> 主线第一章7-讨伐死灵拘束之地最终BOSS2"

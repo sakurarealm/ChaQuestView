@@ -21,6 +21,9 @@ normal:
   goal:
     - "击杀猩红魔女的追随者"
     - "坐标 [X,Y,Z]"
+  hud:
+    - "击杀猩红魔女的追随者"
+    - "坐标 [X,Y,Z]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,9 +39,12 @@ publisher: "黛丝黛"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 击杀猩红魔女的追随者 TravelersDreamCompact 2-1_6 594 65 -1579"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者"
+    - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者2"
+    - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者3"
+    - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者4"

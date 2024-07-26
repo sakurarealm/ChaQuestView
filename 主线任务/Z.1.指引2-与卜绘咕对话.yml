@@ -21,6 +21,9 @@ normal:
   goal:
     - "与卜绘咕对话"
     - "坐标 [-1899,71,-436]"
+  hud:
+    - "与卜绘咕对话"
+    - "坐标 [-1899,71,-436]"
 # 任务完成显示配置（可删去任意节点，则不显示）
 complete:
   icon: ""
@@ -36,10 +39,10 @@ publisher: "卡尔"
 navigation:
   enable: true
   cmd:
-    - ""
+    - "map guide <player> 与卜绘咕对话 TravelersDreamCompact 2-1_6 -1899 71 -436"
 # 任务放弃
 cancel:
   enable: true
   cmd:
-    - ""
+    - "chemdah quest stop <player> 指引2-与卜绘咕对话"
 
