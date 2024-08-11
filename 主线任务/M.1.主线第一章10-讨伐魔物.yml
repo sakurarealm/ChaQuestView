@@ -39,10 +39,12 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 讨伐魔物 TravelersDreamCompact 2-1_6 831 66 -1434"
+    - "map guide <player> 讨伐魔物 TravelersDreamCompact 2-1_6 364 76 -1476"
 # 任务放弃
 cancel:
   enable: true
   cmd:
     - "chemdah quest stop <player> 主线第一章10-讨伐魔物"
     - "chemdah quest stop <player> 主线第一章10-讨伐魔物2"
+    - "questview del 主线第一章10-讨伐魔物 %player_name%"
+    - "questview del 主线第一章10-讨伐魔物2 %player_name%"

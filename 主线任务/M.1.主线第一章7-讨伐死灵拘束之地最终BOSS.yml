@@ -46,3 +46,5 @@ cancel:
   cmd:
     - "chemdah quest stop <player> 主线第一章7-讨伐死灵拘束之地最终BOSS"
     - "chemdah quest stop <player> 主线第一章7-讨伐死灵拘束之地最终BOSS2"
+    - "questview del 主线第一章7-讨伐死灵拘束之地最终BOSS %player_name%"
+    - "questview del 主线第一章7-讨伐死灵拘束之地最终BOSS2 %player_name%"

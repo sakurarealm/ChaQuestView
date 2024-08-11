@@ -48,3 +48,7 @@ cancel:
     - "chemdah quest stop <player> 主线第一章11-前往下水道寻找线索2"
     - "chemdah quest stop <player> 主线第一章11-前往下水道寻找线索3"
     - "chemdah quest stop <player> 主线第一章11-前往下水道寻找线索4"
+    - "questview del 主线第一章11-前往下水道寻找线索 %player_name%"
+    - "questview del 主线第一章11-前往下水道寻找线索2 %player_name%"
+    - "questview del 主线第一章11-前往下水道寻找线索3 %player_name%"
+    - "questview del 主线第一章11-前往下水道寻找线索4 %player_name%"

@@ -48,3 +48,7 @@ cancel:
     - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者2"
     - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者3"
     - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者4"
+    - "questview del 主线第一章12-击杀猩红魔女的追随者 %player_name%"
+    - "questview del 主线第一章12-击杀猩红魔女的追随者2 %player_name%"
+    - "questview del 主线第一章12-击杀猩红魔女的追随者3 %player_name%"
+    - "questview del 主线第一章12-击杀猩红魔女的追随者4 %player_name%"

@@ -47,3 +47,6 @@ cancel:
     - "chemdah quest stop <player> 主线第一章3-救助浑身是血的少女"
     - "chemdah quest stop <player> 主线第一章3-救助浑身是血的少女2"
     - "chemdah quest stop <player> 主线第一章3-救助浑身是血的少女3"
+    - "questview del 主线第一章3-救助浑身是血的少女 %player_name%"
+    - "questview del 主线第一章3-救助浑身是血的少女2 %player_name%"
+    - "questview del 主线第一章3-救助浑身是血的少女3乡 %player_name%"

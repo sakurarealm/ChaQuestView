@@ -54,3 +54,4 @@ cancel:
   enable: true
   cmd:
     - "chemdah quest stop <player> 主线第一章2-熟悉芸樱乡"
+    - "questview del 主线第一章2-熟悉芸樱乡 %player_name%"

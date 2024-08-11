@@ -45,3 +45,4 @@ cancel:
   enable: true
   cmd:
     - "chemdah quest stop <player> 主线第一章9-感恩的晚宴"
+    - "questview del 主线第一章9-感恩的晚宴 %player_name%"

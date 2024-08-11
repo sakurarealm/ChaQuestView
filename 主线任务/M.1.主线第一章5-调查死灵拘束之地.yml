@@ -46,3 +46,5 @@ cancel:
   cmd:
     - "chemdah quest stop <player> 主线第一章5-调查死灵拘束之地"
     - "chemdah quest stop <player> 主线第一章5-调查死灵拘束之地2"
+    - "questview del 主线第一章5-调查死灵拘束之地 %player_name%"
+    - "questview del 主线第一章5-调查死灵拘束之地2 %player_name%"

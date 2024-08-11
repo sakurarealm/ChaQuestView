@@ -47,3 +47,6 @@ cancel:
     - "chemdah quest stop <player> 主线第一章6-战前准备"
     - "chemdah quest stop <player> 主线第一章6-战前准备2"
     - "chemdah quest stop <player> 主线第一章6-战前准备3"
+    - "questview del 主线第一章6-战前准备 %player_name%"
+    - "questview del 主线第一章6-战前准备2 %player_name%"
+    - "questview del 主线第一章6-战前准备3 %player_name%"

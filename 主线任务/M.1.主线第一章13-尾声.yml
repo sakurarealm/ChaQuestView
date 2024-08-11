@@ -45,3 +45,4 @@ cancel:
   enable: true
   cmd:
     - "chemdah quest stop <player> 主线第一章13-尾声"
+    - "questview del 主线第一章13-尾声 %player_name%"

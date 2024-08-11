@@ -45,4 +45,4 @@ cancel:
   enable: true
   cmd:
     - "chemdah quest stop <player> 指引3-前往考场"
-
+    - "questview del 指引3-前往考场 %player_name%"

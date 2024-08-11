@@ -48,3 +48,5 @@ cancel:
   cmd:
     - "chemdah quest stop <player> 指引1-和训练人员比试-1"
     - "chemdah quest stop <player> 指引1-和训练人员比试-2"
+    - "questview del 指引1-和训练人员比试-1 %player_name%"
+    - "questview del 指引1-和训练人员比试-2 %player_name%"

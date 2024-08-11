@@ -48,3 +48,7 @@ cancel:
     - "chemdah quest stop <player> 主线第一章4-营救雷格斯2"
     - "chemdah quest stop <player> 主线第一章4-营救雷格斯3"
     - "chemdah quest stop <player> 主线第一章4-营救雷格斯4"
+    - "questview del 主线第一章4-营救雷格斯 %player_name%"
+    - "questview del 主线第一章4-营救雷格斯2 %player_name%"
+    - "questview del 主线第一章4-营救雷格斯3 %player_name%"
+    - "questview del 主线第一章4-营救雷格斯4 %player_name%"
