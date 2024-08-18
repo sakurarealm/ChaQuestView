@@ -39,15 +39,15 @@ publisher: "黛丝黛"
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 击杀猩红魔女的追随者 TravelersDreamCompact 2-1_6 594 65 -1579"
+    - "map guide %player_name% 击杀猩红魔女的追随者 TravelersDreamCompact 2-1_6 594 65 -1579"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者"
-    - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者2"
-    - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者3"
-    - "chemdah quest stop <player> 主线第一章12-击杀猩红魔女的追随者4"
+    - "chemdah quest stop %player_name% 主线第一章12-击杀猩红魔女的追随者"
+    - "chemdah quest stop %player_name% 主线第一章12-击杀猩红魔女的追随者2"
+    - "chemdah quest stop %player_name% 主线第一章12-击杀猩红魔女的追随者3"
+    - "chemdah quest stop %player_name% 主线第一章12-击杀猩红魔女的追随者4"
     - "questview del 主线第一章12-击杀猩红魔女的追随者 %player_name%"
     - "questview del 主线第一章12-击杀猩红魔女的追随者2 %player_name%"
     - "questview del 主线第一章12-击杀猩红魔女的追随者3 %player_name%"

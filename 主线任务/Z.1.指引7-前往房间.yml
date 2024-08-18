@@ -39,10 +39,10 @@ publisher: "卡尔"
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 与卜绘咕对话 TravelersDreamCompact 2-1_6 -1891 79 -430"
+    - "map guide %player_name% 与卜绘咕对话 TravelersDreamCompact 2-1_6 -1891 79 -430"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 指引7-前往房间"
+    - "chemdah quest stop %player_name% 指引7-前往房间"
     - "questview del 指引7-前往房间 %player_name%"

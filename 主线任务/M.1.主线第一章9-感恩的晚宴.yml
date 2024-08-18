@@ -39,10 +39,10 @@ publisher: "可琳·加奈"
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 感恩的晚宴 TravelersDreamCompact 2-1_6 397 70 -1641"
+    - "map guide %player_name% 感恩的晚宴 TravelersDreamCompact 2-1_6 397 70 -1641"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 主线第一章9-感恩的晚宴"
+    - "chemdah quest stop %player_name% 主线第一章9-感恩的晚宴"
     - "questview del 主线第一章9-感恩的晚宴 %player_name%"

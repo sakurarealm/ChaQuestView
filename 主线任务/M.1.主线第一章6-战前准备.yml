@@ -39,14 +39,14 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 战前准备 TravelersDreamCompact 2-1_6 553 76 -1709"
+    - "map guide %player_name% 战前准备 TravelersDreamCompact 2-1_6 553 76 -1709"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 主线第一章6-战前准备"
-    - "chemdah quest stop <player> 主线第一章6-战前准备2"
-    - "chemdah quest stop <player> 主线第一章6-战前准备3"
+    - "chemdah quest stop %player_name% 主线第一章6-战前准备"
+    - "chemdah quest stop %player_name% 主线第一章6-战前准备2"
+    - "chemdah quest stop %player_name% 主线第一章6-战前准备3"
     - "questview del 主线第一章6-战前准备 %player_name%"
     - "questview del 主线第一章6-战前准备2 %player_name%"
     - "questview del 主线第一章6-战前准备3 %player_name%"

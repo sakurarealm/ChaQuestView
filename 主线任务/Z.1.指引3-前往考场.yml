@@ -39,10 +39,10 @@ publisher: "卜绘咕"
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 前往考场 TravelersDreamCompact 2-1_6 -1911 66 -480"
+    - "map guide %player_name% 前往考场 TravelersDreamCompact 2-1_6 -1911 66 -480"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 指引3-前往考场"
+    - "chemdah quest stop %player_name% 指引3-前往考场"
     - "questview del 指引3-前往考场 %player_name%"

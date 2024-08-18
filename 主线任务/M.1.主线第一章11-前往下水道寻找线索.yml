@@ -39,15 +39,15 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 前往下水道寻找线索 TravelersDreamCompact 2-1_6 594 65 -1579"
+    - "map guide %player_name% 前往下水道寻找线索 TravelersDreamCompact 2-1_6 594 65 -1579"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 主线第一章11-前往下水道寻找线索"
-    - "chemdah quest stop <player> 主线第一章11-前往下水道寻找线索2"
-    - "chemdah quest stop <player> 主线第一章11-前往下水道寻找线索3"
-    - "chemdah quest stop <player> 主线第一章11-前往下水道寻找线索4"
+    - "chemdah quest stop %player_name% 主线第一章11-前往下水道寻找线索"
+    - "chemdah quest stop %player_name% 主线第一章11-前往下水道寻找线索2"
+    - "chemdah quest stop %player_name% 主线第一章11-前往下水道寻找线索3"
+    - "chemdah quest stop %player_name% 主线第一章11-前往下水道寻找线索4"
     - "questview del 主线第一章11-前往下水道寻找线索 %player_name%"
     - "questview del 主线第一章11-前往下水道寻找线索2 %player_name%"
     - "questview del 主线第一章11-前往下水道寻找线索3 %player_name%"

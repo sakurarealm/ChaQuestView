@@ -39,12 +39,12 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 调查死灵拘束之地 TravelersDreamCompact 2-1_6 594 65 -1579"
+    - "map guide %player_name% 调查死灵拘束之地 TravelersDreamCompact 2-1_6 594 65 -1579"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 主线第一章5-调查死灵拘束之地"
-    - "chemdah quest stop <player> 主线第一章5-调查死灵拘束之地2"
+    - "chemdah quest stop %player_name% 主线第一章5-调查死灵拘束之地"
+    - "chemdah quest stop %player_name% 主线第一章5-调查死灵拘束之地2"
     - "questview del 主线第一章5-调查死灵拘束之地 %player_name%"
     - "questview del 主线第一章5-调查死灵拘束之地2 %player_name%"

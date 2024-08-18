@@ -39,15 +39,15 @@ publisher: "? ? ? "
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 与卫兵对话 TravelersDreamCompact 2-1_6 -410 70 -1148"
+    - "map guide %player_name% 与卫兵对话 TravelersDreamCompact 2-1_6 -410 70 -1148"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 主线第一章4-营救雷格斯"
-    - "chemdah quest stop <player> 主线第一章4-营救雷格斯2"
-    - "chemdah quest stop <player> 主线第一章4-营救雷格斯3"
-    - "chemdah quest stop <player> 主线第一章4-营救雷格斯4"
+    - "chemdah quest stop %player_name% 主线第一章4-营救雷格斯"
+    - "chemdah quest stop %player_name% 主线第一章4-营救雷格斯2"
+    - "chemdah quest stop %player_name% 主线第一章4-营救雷格斯3"
+    - "chemdah quest stop %player_name% 主线第一章4-营救雷格斯4"
     - "questview del 主线第一章4-营救雷格斯 %player_name%"
     - "questview del 主线第一章4-营救雷格斯2 %player_name%"
     - "questview del 主线第一章4-营救雷格斯3 %player_name%"

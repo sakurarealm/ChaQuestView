@@ -39,12 +39,12 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - "chaquestview start 主线第一章7-讨伐死灵拘束之地最终BOSS <player>"
+    - "chaquestview start 主线第一章7-讨伐死灵拘束之地最终BOSS %player_name%"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 主线第一章7-讨伐死灵拘束之地最终BOSS"
-    - "chemdah quest stop <player> 主线第一章7-讨伐死灵拘束之地最终BOSS2"
+    - "chemdah quest stop %player_name% 主线第一章7-讨伐死灵拘束之地最终BOSS"
+    - "chemdah quest stop %player_name% 主线第一章7-讨伐死灵拘束之地最终BOSS2"
     - "questview del 主线第一章7-讨伐死灵拘束之地最终BOSS %player_name%"
     - "questview del 主线第一章7-讨伐死灵拘束之地最终BOSS2 %player_name%"

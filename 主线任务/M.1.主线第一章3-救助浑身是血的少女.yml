@@ -39,14 +39,14 @@ publisher: "? ? ? "
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 前往协会门口 TravelersDreamCompact 2-1_6 407 70 -1578"
+    - "map guide %player_name% 前往协会门口 TravelersDreamCompact 2-1_6 407 70 -1578"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 主线第一章3-救助浑身是血的少女"
-    - "chemdah quest stop <player> 主线第一章3-救助浑身是血的少女2"
-    - "chemdah quest stop <player> 主线第一章3-救助浑身是血的少女3"
+    - "chemdah quest stop %player_name% 主线第一章3-救助浑身是血的少女"
+    - "chemdah quest stop %player_name% 主线第一章3-救助浑身是血的少女2"
+    - "chemdah quest stop %player_name% 主线第一章3-救助浑身是血的少女3"
     - "questview del 主线第一章3-救助浑身是血的少女 %player_name%"
     - "questview del 主线第一章3-救助浑身是血的少女2 %player_name%"
     - "questview del 主线第一章3-救助浑身是血的少女3乡 %player_name%"

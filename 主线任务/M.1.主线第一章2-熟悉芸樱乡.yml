@@ -45,13 +45,13 @@ publisher: "武隆"
 navigation:
   enable: true
   cmd:
-    - "map guide <player> 与沐沐对话 TravelersDreamCompact 2-1_6 491 70 -1552"
-    - "map guide <player> 与乌维·卡托斯对话 TravelersDreamCompact 2-1_6 349 70 -1582"
-    - "map guide <player> 与托尔对话 TravelersDreamCompact 2-1_6 347 71 -1555"
-    - "map guide <player> 与伟瑟对话 TravelersDreamCompact 2-1_6 423 70 -1600"
+    - "map guide %player_name% 与沐沐对话 TravelersDreamCompact 2-1_6 491 70 -1552"
+    - "map guide %player_name% 与乌维·卡托斯对话 TravelersDreamCompact 2-1_6 349 70 -1582"
+    - "map guide %player_name% 与托尔对话 TravelersDreamCompact 2-1_6 347 71 -1555"
+    - "map guide %player_name% 与伟瑟对话 TravelersDreamCompact 2-1_6 423 70 -1600"
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
-    - "chemdah quest stop <player> 主线第一章2-熟悉芸樱乡"
+    - "chemdah quest stop %player_name% 主线第一章2-熟悉芸樱乡"
     - "questview del 主线第一章2-熟悉芸樱乡 %player_name%"

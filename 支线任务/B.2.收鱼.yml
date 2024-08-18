@@ -36,12 +36,12 @@ complete:
 publisher: "卡洛"
 # 任务导航
 navigation:
-  enable: true
+  enable: false
   cmd:
     - ""
 # 任务放弃
 cancel:
-  enable: true
+  enable: false
   cmd:
     - ""
 
