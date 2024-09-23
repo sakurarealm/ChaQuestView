@@ -1,0 +1,52 @@
+# 任务ID（文件名与任务ID同）
+id: "指引1-和训练人员比试-1"
+# 任务名称
+display: "和训练人员比试"
+# 任务等级
+# level: 10
+# 任务分组 分组名称:排序权重
+group: "主线任务:1"
+# 默认状态下显示配置
+normal:
+  # 任务图标空着，下同
+  icon: ""
+  # 任务图片空着，下同
+  image: ""
+  # 任务地点（序章填初始台地，第一章填芸樱乡）
+  location: "红枫镇"
+  # 任务信息
+  info:
+    - "和训练人员比试，考取冒险者证明"
+  # 任务目标
+  goal:
+    - "击败训练人员"
+    - "或被训练人员击败"
+    - "坐标 [-1922,65,-478]"
+  hud:
+    - "击败训练人员"
+    - "或被训练人员击败"
+    - "坐标 [-1922,65,-478]"
+# 任务完成显示配置（可删去任意节点，则不显示）
+complete:
+  icon: ""
+  image: ""
+  location: "红枫镇"
+  info:
+    - "和训练人员比试，考取冒险者证明"
+  goal:
+    - "[指引-和训练人员比试] 已完成"
+# 发布任务的NPC
+publisher: "卡尔"
+# 任务导航
+navigation:
+  enable: true
+  cmd:
+    - "map guide %player_name% 和训练人员比试 TravelersDreamCompact 2-1_6 -1922 65 -478"
+# 任务放弃
+cancel:
+  enable: false
+  cmd:
+    - "chemdah quest stop %player_name% 指引1-和训练人员比试-1"
+    - "chemdah quest stop %player_name% 指引1-和训练人员比试-2"
+    - "questview del 指引1-和训练人员比试-1 %player_name%"
+    - "questview del 指引1-和训练人员比试-2 %player_name%"

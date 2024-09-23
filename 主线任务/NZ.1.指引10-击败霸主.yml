@@ -1,0 +1,48 @@
+# 任务ID（文件名与任务ID同）
+id: "指引10-击败霸主"
+# 任务名称
+display: "击败霸主"
+# 任务等级
+# level: 10
+# 任务分组 分组名称:排序权重
+group: "主线任务:1"
+# 默认状态下显示配置
+normal:
+  # 任务图标空着，下同
+  icon: ""
+  # 任务图片空着，下同
+  image: ""
+  # 任务地点（序章填初始台地，第一章填芸樱乡）
+  location: "红枫镇"
+  # 任务信息
+  info:
+    - "完成最后的考核，考取冒险者证明"
+  # 任务目标
+  goal:
+    - "最终考核"
+    - "坐标 [-1978,69,-617]"
+  hud:
+    - "最终考核"
+    - "坐标 [-1978,69,-617]"
+# 任务完成显示配置（可删去任意节点，则不显示）
+complete:
+  icon: ""
+  image: ""
+  location: "红枫镇"
+  info:
+    - "完成最后的考核，考取冒险者证明"
+  goal:
+    - "[指引-最终考核] 已完成"
+# 发布任务的NPC
+publisher: "卜绘咕"
+# 任务导航
+navigation:
+  enable: true
+  cmd:
+    - "map guide %player_name% 与卡尔对话 TravelersDreamCompact 2-1_5 -1897 71 -435"
+# 任务放弃
+cancel:
+  enable: false
+  cmd:
+    - "chemdah quest stop %player_name% 指引10-击败霸主"
+    - "questview del 指引10-击败霸主 %player_name%"
