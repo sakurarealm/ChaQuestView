@@ -1,0 +1,45 @@
+# 任务ID（文件名与任务ID同）
+id: "风铃花下2"
+# 任务名称
+display: "前往希林餐厅"
+# 任务等级
+# level: 10
+# 任务分组 分组名称:排序权重
+group: "支线任务:2"
+# 默认状态下显示配置
+normal:
+  # 任务图标空着，下同
+  icon: ""
+  # 任务图片空着，下同
+  image: ""
+  # 任务地点（序章填初始台地，第一章填芸樱乡）
+  location: "红枫镇"
+  # 任务信息
+  info:
+    - "那就，请你帮忙送一份吧！我去把剩下的交了"
+  # 任务目标
+  goal:
+    - "前往希林餐厅"
+    - "坐标 [-1945,67,-350]"
+  hud:
+    - "前往希林餐厅"
+    - "坐标 [-1945,67,-350]"
+# 任务完成显示配置（可删去任意节点，则不显示）
+complete:
+  icon: ""
+  image: ""
+  location: "红枫镇"
+  info:
+    - "那就，请你帮忙送一份吧！我去把剩下的交了"
+  goal:
+    - "[前往希林餐厅] 已完成"
+# 发布任务的NPC
+publisher: "玲川"
+# 任务导航
+navigation:
+  enable: true
+  cmd:
+    - "map guide %player_name% 前往希林餐厅 TravelersDreamCompact 2-1_6 -1945 67 -350"
+# 任务放弃
+cancel:
+  enable: false
